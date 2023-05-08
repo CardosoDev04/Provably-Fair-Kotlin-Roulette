@@ -11,3 +11,8 @@ This roulette works by executing the following steps:
 - Taking the result of the previous step and assigning it to a winningNumber variable
 - Checking in what color range that winningNumber variable falls and getting the winningColor.
 - Comparing the players color input with winningColor and respectively using the win multiplier in case theres a match.
+
+
+# NOTE
+
+The code has a problem, where it sometimes returns the color as NOT A VALID CHOICE (as if the winningNumber doesn't fall in any of the ranges) but most times it's working just fine. Will try to fix

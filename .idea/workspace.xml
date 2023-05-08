@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="710805e7-3946-4f9a-b05d-1bd3805638ac" name="Changes" comment="Encryption and Multiplier">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="710805e7-3946-4f9a-b05d-1bd3805638ac" name="Changes" comment="Main function done, and roulette is working!">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Encryption.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Encryption.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Multiplier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Multiplier.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683559723715</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Main function done, and roulette is working!">
+      <created>1683561657101</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683561657101</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial COmmit" />
     <MESSAGE value="Encryption and Multiplier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encryption and Multiplier" />
+    <MESSAGE value="Main function done, and roulette is working!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main function done, and roulette is working!" />
   </component>
 </project>

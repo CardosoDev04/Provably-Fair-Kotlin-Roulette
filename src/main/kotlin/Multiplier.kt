@@ -17,7 +17,6 @@ fun multiplier(color: String): Double{
 fun payout(bet: Double, color: String, clientSeed: String, serverSeed: String ): String{
 
     val winningNumber = winnerSeed(serverSeed,clientSeed)
-    println("winningNumber: $winningNumber")
     val winColor = when(winningNumber){
         in 0..BLUE_RANGE -> "blue"
         in BLUE_RANGE..RED_RANGE -> "red"
@@ -26,6 +25,6 @@ fun payout(bet: Double, color: String, clientSeed: String, serverSeed: String ):
     }
 
     if( color == winColor) return "You won! " + "And your payout was: "+ bet * multiplier(color)
-    else return "The winning color was $winColor " + "and your payout was: "+ 0.0
+    else return "The winning color was ${winColor.uppercase()} " + "and your payout was: "+ 0.0
 
 }
